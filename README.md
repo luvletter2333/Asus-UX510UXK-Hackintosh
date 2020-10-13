@@ -7,7 +7,7 @@
 
 - GPU: HD620 and GTX950M(disabled)
 
-- Wifi&Bluetooth: already changed to DW1560
+- Wifi&Bluetooth: replaced with DW1560
 
 - Audio: ALC256 with layout-id 13 works prefectly!
 
