@@ -9,7 +9,7 @@
 
 - Wifi&Bluetooth: replaced with DW1560
 
-- Audio: ALC256 with layout-id 13 works prefectly!
+- Audio: ALC256 with layout-id ~~13~~ 5 works prefectly!
 
 - NVMe SSD: Intel 760p
 
@@ -21,7 +21,7 @@
 
 
 
-## Clover
+## Clover (Deprecated)
 
 Mainly From https://github.com/hieplpvip/ASUS-ZENBOOK-HACKINTOSH
 
@@ -31,9 +31,12 @@ Maybe some changes need to be emphasized:\
 - SMBIOS, MLB, UUID and so on are generated randomly
 - Use OsxAptioFix3Drv.
 
-
+- **Won't update anymore, moved to OpenCore**
 
 ### OpenCore
 
-Testing....
+- OpenCore 0.6.6 with latest kexts
+- **PLEASE FILL SMBIOS INFOMATION BY YOURSELF**
+- Sleep works well (Fix [#1](https://github.com/luvletter2333/Asus-UX510UXK-Hackintosh/issues/1#issuecomment-708021869))
 
+- Hibernation is still testing
